@@ -40,7 +40,7 @@ namespace _09_DatabaseProject
 
             connection.Close();
 
-            foreach (DataRow row in dataTable.Rows)
+            foreach (DataRow row in dataTable.Rows) 
             {
                 foreach(var item in row.ItemArray)
                 {
